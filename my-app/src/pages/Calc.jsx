@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Button from "../components/Button";
+import Button from "../components/Button.jsx";
 import css from '../styles/layout.module.css'
 function CalcComponent() {
   const [left, setLeft] = useState(" ");
