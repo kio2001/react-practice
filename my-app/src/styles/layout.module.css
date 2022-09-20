@@ -1,0 +1,15 @@
+.l_calc {
+    padding : 5px ;
+}
+.b_calc{
+    margin : 1px;
+    background-color : rgb(187, 183, 183)
+
+}
+
+.a_calc{
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px;
+}

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Button from "../components/Button";
+import css from '../styles/layout.module.css'
 function CalcComponent() {
   const [left, setLeft] = useState(" ");
   const [right, setRight] = useState(" ");
@@ -44,11 +45,11 @@ function CalcComponent() {
     setRight(" ");
   }
   return (
-    <div>
+    <div className={css.a_calc}>
       <div className="input">
         <input type="text" value={`${left} ${symbol} ${right}`}></input>
       </div>
-      <div className="AllButton">
+      <div className= {css.l_calc}>
         <div>
           <Button buttonParam={7} buttonFunc={pushButton} />
           <Button buttonParam={8} buttonFunc={pushButton} />
