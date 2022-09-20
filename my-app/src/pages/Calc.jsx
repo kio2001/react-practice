@@ -32,7 +32,7 @@ function CalcComponent() {
       Result = leftNum + rightNum;
       setLeft(Result);
     } else if (symbol === "-") {
-      Result = leftNum + rightNum;
+      Result = leftNum - rightNum;
       setLeft(Result);
     } else if (symbol === "×") {
       Result = leftNum * rightNum;
